@@ -25,9 +25,11 @@ header.masthead {
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
+  opacity: 0.3;
 }
 
-header.masthead .overlay {
+
+header .overlay {
   position: absolute;
   background-color: #212529;
   height: 100%;
@@ -124,4 +126,10 @@ header.masthead h1 {
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+nav.navbar {
+  background-color: #FC5454;
+}
+a.nav-link  {
+  color: red;
 }
